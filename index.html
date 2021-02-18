@@ -1,0 +1,1028 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootstrap 4 Starter Pack</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  
+  
+
+</head>
+<body id="home">
+
+<!-- 
+
+1. HEADER & MENU
+
+-->
+
+<div class="super_container">
+
+<header class="header trans_300">
+
+  <div class="top_nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="top_nav_left">free shipping on all u.s orders over $50</div>
+          </div>
+          <div class="col-md-6 text-right">
+            <div class="top_nav_right">
+              <ul class="top_nav_menu">
+
+                <li class="currency">
+                <a href="#">
+                usd
+                <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="currency_selection">
+                <li><a href="#">cad</a></li>
+                <li><a href="#">aud</a></li>
+                <li><a href="#">eur</a></li>
+                <li><a href="#">gbp</a></li>
+                </ul>
+                </li>
+              <li class="language">
+                <a href="#">
+                English
+                <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="language_selection">
+                <li><a href="#">French</a></li>
+                <li><a href="#">Italian</a></li>
+                <li><a href="#">German</a></li>
+                <li><a href="#">Spanish</a></li>
+                </ul>
+              </li>
+              <li class="account">
+                <a href="#">
+                My Account
+                <i class="fa fa-angle-down"></i>
+                </a>
+                <ul class="account_selection">
+                <li><a data-toggle="modal" data-target="#loginUserModal" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+                <li><a data-toggle="modal" data-target="#registerUserModal" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+                </ul>
+              </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main_nav_container">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-right">
+          <div class="logo_container">
+           <a href="#">nike<span>shop</span></a>
+          </div>
+          <nav class="navbar">
+          <ul class="navbar_menu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">Man</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">blog</a></li>
+          </ul>
+          <ul class="navbar_user">
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            <li class="checkout">
+            <a href="#">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <span id="checkout_items" class="checkout_items">2</span>
+            </a>
+            </li>
+          </ul>
+          <div class="hamburger_container">
+             <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+
+  <div class="fs_menu_overlay"></div>
+    <div class="hamburger_menu">
+       <div class="hamburger_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+      <div class="hamburger_menu_content text-right">
+        <ul class="menu_top_nav">
+          <li class="menu_item has-children">
+          <a href="#">
+          usd
+          <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="menu_selection">
+          <li><a href="#">cad</a></li>
+          <li><a href="#">aud</a></li>
+          <li><a href="#">eur</a></li>
+          <li><a href="#">gbp</a></li>
+          </ul>
+          </li>
+          <li class="menu_item has-children">
+          <a href="#">
+          English
+          <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="menu_selection">
+          <li><a href="#">French</a></li>
+          <li><a href="#">Italian</a></li>
+          <li><a href="#">German</a></li>
+          <li><a href="#">Spanish</a></li>
+          </ul>
+          </li>
+          <li class="menu_item has-children">
+          <a href="#">
+          My Account
+          <i class="fa fa-angle-down"></i>
+          </a>
+          <ul class="menu_selection">
+          <li><a data-toggle="modal" data-target="#loginUserModal" href="#"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
+           <li><a data-toggle="modal" data-target="#registerUserModal" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i>Register</a></li>
+          </ul>
+          </li>
+          <li class="menu_item"><a href="#">home</a></li>
+          <li class="menu_item"><a href="#">shop</a></li>
+          <li class="menu_item"><a href="#">promotion</a></li>
+          <li class="menu_item"><a href="#">pages</a></li>
+          <li class="menu_item"><a href="#">blog</a></li>
+          <li class="menu_item"><a href="#">contact</a></li>
+        </ul>
+      </div>
+</div>
+
+<section class="banner-area">
+  <div class="container">
+    <div class="row fullscreen align-items-center justify-content-start">
+      <div class="col-lg-12">
+        <div class="active-banner-slider owl-carousel">
+
+          <div class="row single-slide align-items-center d-flex">
+            <div class="col-lg-5 col-md-12">
+              <div class="banner-content">
+                <h1>Nike New <br>Collection!</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                <div class="add-bag d-flex align-items-center">
+                <button class="add-to-cart" type="submit" name="send">
+                     Add To Cart 
+                  </button>
+              </div>
+              </div>
+            </div>
+            <div class="col-lg-7 d-none d-lg-block">
+              <div class="banner-img">
+                  <img class="img-fluid" src="https://preview.colorlib.com/theme/karma/img/banner/banner-img.png" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 
+
+3. TRENDING PRODUCTS
+
+-->
+  <section class="products mt-5" data-stellar-background-ratio="0.5" id="products">
+ 
+
+    <div class="container" id="area">
+     <h2 class="text-center pb-4 title">
+       
+       <span>
+         TRENDING PRODUCTS
+       </span>
+     </h2>
+    
+      <ul class="product-carousel">
+         <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/chaussure-de-training-metcon-6-pour-d7wF0Q.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                  </div>
+              </div>
+           </div>
+          </li>
+           <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/haut-de-running-a-manches-courtes-pinnacle-run-division-pour-ScRP11.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/short-de-training-dri-fit-pour-0CRZv5.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/haut-de-training-a-manches-courtes-icon-clash-pour-C2RfXw.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/chaussure-dentrainement-fractionne-haute-intensite-air-zoom-superrep-2-pour-hQxXZ4.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/sweat-a-capuche-pro-pour-chxvLN.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>
+          <li>
+            <div class="overlay">
+              <div class="product_block">
+                <div class="image">
+                  <a href="#">
+                    <img src="img/legging-7-8-infinalon-yoga-luxe-pour-JvXgfP.jpg">
+                  </a>
+                </div>
+                <div class="item-description">
+                  <h4 class="heading-title product-name"><a href="https://demo.themeftc.com/wedding/product/protoriss-maris-aget/">Protoriss maris aget</a></h4> 
+                  <span class="price">
+                    <span class="woocommerce-Price-amount amount">
+                      <span class="woocommerce-Price-currencySymbol">$</span>159.00</span>
+                    </span>
+                    <div class="star-rating no-rating" title=""><span style="width:0%"></span></div>
+                </div>
+
+            </div>
+           </div>
+          </li>           
+          </ul>
+
+          <ul class="product-nav ">
+            <li id="prev">&lt;</li>
+            <li id="next">&gt;</li>
+          </ul>
+ 
+    </div>
+
+  </section>
+
+<!-- 
+
+3. AUTINTICATION
+
+-->
+
+<!-- 
+
+3-1. LOGIN MODAL
+
+-->
+
+ 
+<div class="modal fade" id="loginUserModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header text-white">
+          <h5 class="modal-title text-uppercase font-weight-normal">VOTRE IDENTIFIANT POUR REJOINDRE NIKE</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+           <form action="{{ route('login') }}" method="Post">
+            
+            <div class="form-group">
+             
+              <input type="email" class="form-control is-invalid" placeholder="Adreesse e-amil">
+              <div class="invalid-feedback">
+              Veuillez entrer une adresse e-mail valide.
+            </div>
+            </div>
+          
+            <div class="form-group">
+           
+              <input placeholder="Mot de passe" type="password" class="form-control is-valid">
+              <!-- <div class="invalid-feedback">
+              Veuillez entrer un mot de passe.
+              </div> -->
+            </div>
+
+              <div class="d-flex flex-row justify-content-between">
+              <div class="align-items-start">
+               
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="remember" id="remember">
+
+                      <label class="form-check-label" for="remember">
+                         Remember Me
+                      </label>
+                  </div>
+                          
+              </div>
+               <div class="align-items-end">
+                <a href="#">Mot de passe oublié ?</a>
+              </div>
+            </div>
+            <div class="terms">
+              <p>En vous connectant, vous acceptez de vous conformer à la <a href="#">Politique de confidentialité</a>  et aux  <a href="#"> Conditions générales</a>  de Nike.</p>
+            </div>  
+        </div>
+          <div class="modal-footer">
+            <button class="add-to-cart text-white" data-dismiss="modal">Connexion</button>
+         <!--    <br><br>
+            <p>Vous n'êtes pas encore membre ? <a href="#"> Rejoignez-nous.</a> </p> -->
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 
+
+3-2. REGISTER MODAL
+
+-->
+
+
+ <div class="modal fade" id="registerUserModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header text-white">
+          <h5 class="modal-title text-uppercase font-weight-normal">Devenez Membre Nike</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form action="{{ route('register') }}" method="Post">
+            <div class="form-group">
+             
+              <input type="email" class="form-control" placeholder="Adreesse e-amil">
+            </div>
+
+            <div class="form-group">
+              
+            </div>
+          
+            <div class="form-group">
+           
+              <input placeholder="Mot de passe" type="password" class="form-control is-invalid">
+              <div class="invalid-feedback">Ce mot de passe n'est pas conforme aux exigences minimales.</div>
+            </div>
+            <div class="form-group">
+           
+              <input placeholder="Prénom" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+           
+              <input placeholder="Nom" type="text" class="form-control is-valid">
+              <div class="nvalid-feedback"></div>
+            </div>
+            <div class="form-group">
+           
+              <input placeholder="Date de naissance" type="date" class="form-control">
+            </div>
+            <div class="form-group">
+           
+              <select class="form-control">
+                <optgroup label="Pays/Région">
+                
+                  <option value="AF" class="">Afghanistan</option>
+                
+                  <option value="ZA" class="">Afrique du Sud</option>
+                
+                  <option value="AL" class="">Albanie</option>
+                
+                  <option value="DZ" class="">Algérie</option>
+                
+                  <option value="DE" class="">Allemagne</option>
+                
+                  <option value="AD" class="">Andorre</option>
+                
+                  <option value="AO" class="">Angola</option>
+                
+                  <option value="AI" class="">Anguilla</option>
+                
+                  <option value="AQ" class="">Antarctique</option>
+                
+                  <option value="AG" class="">Antigua-Et-Barbuda</option>
+                
+                  <option value="SA" class="">Arabie Saoudite</option>
+                
+                  <option value="AR" class="">Argentine</option>
+                
+                  <option value="AM" class="">Arménie</option>
+                
+                  <option value="AW" class="">Aruba</option>
+                
+                  <option value="AU" class="">Australie</option>
+                
+                  <option value="AT" class="">Autriche</option>
+                
+                  <option value="AZ" class="">Azerbaïdjan</option>
+                
+                  <option value="BS" class="">Bahamas</option>
+                
+                  <option value="BH" class="">Bahreïn</option>
+                
+                  <option value="BD" class="">Bangladesh</option>
+                
+                  <option value="PW" class="">Belau</option>
+                
+                  <option value="BE" class="">Belgique</option>
+                
+                  <option value="BZ" class="">Belize</option>
+                
+                  <option value="BJ" class="">Bénin</option>
+                
+                  <option value="BM" class="">Bermudes</option>
+                
+                  <option value="BT" class="">Bhoutan</option>
+                
+                  <option value="BY" class="">Biélorussie</option>
+                
+                  <option value="BO" class="">Bolivie</option>
+                
+                  <option value="BA" class="">Bosnie-Herzégovine</option>
+                
+                  <option value="BW" class="">Botswana</option>
+                
+                  <option value="BR" class="">Brésil</option>
+                
+                  <option value="BN" class="">Brunei Darussalam</option>
+                
+                  <option value="BG" class="">Bulgarie</option>
+                
+                  <option value="BF" class="">Burkina Faso</option>
+                
+                  <option value="BI" class="">Burundi</option>
+                
+                  <option value="KH" class="">Cambodge</option>
+                
+                  <option value="CM" class="">Cameroun</option>
+                
+                  <option value="CA" class="">Canada</option>
+                
+                  <option value="CV" class="">Cap-Vert</option>
+                
+                  <option value="CL" class="">Chili</option>
+                
+                  <option value="CN" class="">Chine continentale</option>
+                
+                  <option value="CY" class="">Chypre</option>
+                
+                  <option value="CO" class="">Colombie</option>
+                
+                  <option value="KM" class="">Comores</option>
+                
+                  <option value="CG" class="">Congo</option>
+                
+                  <option value="CD" class="">Congo (RDC)</option>
+                
+                  <option value="KR" class="">Corée, République de</option>
+                
+                  <option value="KP" class="">Corée, République populaire démocratique de</option>
+                
+                  <option value="CR" class="">Costa Rica</option>
+                
+                  <option value="CI" class="">Côte d'Ivoire</option>
+                
+                  <option value="HR" class="">Croatie (nom local : Hrvatska)</option>
+                
+                  <option value="CU" class="">Cuba</option>
+                
+                  <option value="DK" class="">Danemark</option>
+                
+                  <option value="DJ" class="">Djibouti</option>
+                
+                  <option value="DM" class="">Dominique</option>
+                
+                  <option value="EG" class="">Égypte</option>
+                
+                  <option value="SV" class="">El Salvador</option>
+                
+                  <option value="AE" class="">Émirats arabes unis</option>
+                
+                  <option value="EC" class="">Équateur</option>
+                
+                  <option value="ER" class="">Érythrée</option>
+                
+                  <option value="ES" class="">Espagne</option>
+                
+                  <option value="EE" class="">Estonie</option>
+                
+                  <option value="US" class="">États-Unis</option>
+                
+                  <option value="ET" class="">Éthiopie</option>
+                
+                  <option value="RU" class="">Fédération de Russie</option>
+                
+                  <option value="FI" class="">Finlande</option>
+                
+                  <option value="FR" class="">France</option>
+                
+                  <option value="GA" class="">Gabon</option>
+                
+                  <option value="GM" class="">Gambie</option>
+                
+                  <option value="GE" class="">Géorgie</option>
+                
+                  <option value="GS" class="">Géorgie du Sud-et-les Îles Sandwich du Sud</option>
+                
+                  <option value="GH" class="">Ghana</option>
+                
+                  <option value="GI" class="">Gibraltar</option>
+                
+                  <option value="GR" class="">Grèce</option>
+                
+                  <option value="GD" class="">Grenade</option>
+                
+                  <option value="GL" class="">Groenland</option>
+                
+                  <option value="GP" class="">Guadeloupe</option>
+                
+                  <option value="GU" class="">Guam</option>
+                
+                  <option value="GT" class="">Guatemala</option>
+                
+                  <option value="GN" class="">Guinée</option>
+                
+                  <option value="GQ" class="">Guinée équatoriale</option>
+                
+                  <option value="GF" class="">Guinée française</option>
+                
+                  <option value="GW" class="">Guinée-Bissau</option>
+                
+                  <option value="GY" class="">Guyane</option>
+                
+                  <option value="HT" class="">Haïti</option>
+                
+                  <option value="HN" class="">Honduras</option>
+                
+                  <option value="HK" class="">Hong Kong</option>
+                
+                  <option value="HU" class="">Hongrie</option>
+                
+                  <option value="BV" class="">Île Bouvet</option>
+                
+                  <option value="CX" class="">Île Christmas</option>
+                
+                  <option value="RE" class="">Île de la Réunion</option>
+                
+                  <option value="MU" class="">Île Maurice</option>
+                
+                  <option value="NF" class="">Île Norfolk</option>
+                
+                  <option value="KY" class="">Îles Caïmans</option>
+                
+                  <option value="CC" class="">Îles Cocos (Keeling)</option>
+                
+                  <option value="CK" class="">Îles Cook</option>
+                
+                  <option value="FO" class="">Îles Féroé</option>
+                
+                  <option value="FJ" class="">Îles Fidji</option>
+                
+                  <option value="HM" class="">Îles Heard-et-MacDonald</option>
+                
+                  <option value="FK" class="">Îles Malouines</option>
+                
+                  <option value="MP" class="">Îles Mariannes du Nord</option>
+                
+                  <option value="MH" class="">Îles Marshall</option>
+                
+                  <option value="UM" class="">Îles mineures des États-Unis</option>
+                
+                  <option value="PN" class="">Îles Pitcairn</option>
+                
+                  <option value="SB" class="">Îles Salomon</option>
+                
+                  <option value="TC" class="">Îles Turques et Caïques</option>
+                
+                  <option value="VI" class="">Îles Vierges américaines</option>
+                
+                  <option value="VG" class="">Îles Vierges britanniques</option>
+                
+                  <option value="IN" class="">Inde</option>
+                
+                  <option value="ID" class="">Indonésie</option>
+                
+                  <option value="IR" class="">Iran (République islamique d')</option>
+                
+                  <option value="IQ" class="">Iraq</option>
+                
+                  <option value="IE" class="">Irlande</option>
+                
+                  <option value="IS" class="">Islande</option>
+                
+                  <option value="IL" class="">Israël</option>
+                
+                  <option value="IT" class="">Italie</option>
+                
+                  <option value="LY" class="">Jamahiriya arabe libyenne</option>
+                
+                  <option value="JM" class="">Jamaïque</option>
+                
+                  <option value="JP" class="">Japon</option>
+                
+                  <option value="JO" class="">Jordan</option>
+                
+                  <option value="KZ" class="">Kazakhstan</option>
+                
+                  <option value="KE" class="">Kenya</option>
+                
+                  <option value="KG" class="">Kirghizstan</option>
+                
+                  <option value="KI" class="">Kiribati</option>
+                
+                  <option value="KW" class="">Koweït</option>
+                
+                  <option value="BB" class="">La Barbade</option>
+                
+                  <option value="LA" class="">Laos</option>
+                
+                  <option value="VA" class="">Le Saint-Siège (État de la cité du Vatican)</option>
+                
+                  <option value="LS" class="">Lesotho</option>
+                
+                  <option value="LV" class="">Lettonie</option>
+                
+                  <option value="LB" class="">Liban</option>
+                
+                  <option value="LR" class="">Libéria</option>
+                
+                  <option value="LI" class="">Liechtenstein</option>
+                
+                  <option value="LT" class="">Lituanie</option>
+                
+                  <option value="LU" class="">Luxembourg</option>
+                
+                  <option value="MO" class="">Macao</option>
+                
+                  <option value="MK" class="">Macédoine</option>
+                
+                  <option value="MG" class="">Madagascar</option>
+                
+                  <option value="MY" class="">Malaisie</option>
+                
+                  <option value="MW" class="">Malawi</option>
+                
+                  <option value="MV" class="">Maldives</option>
+                
+                  <option value="ML" class="">Mali</option>
+                
+                  <option value="MT" class="">Malte</option>
+                
+                  <option value="MA" selected="selected" class="">Maroc</option>
+                
+                  <option value="MQ" class="">Martinique</option>
+                
+                  <option value="MR" class="">Mauritanie</option>
+                
+                  <option value="YT" class="">Mayotte</option>
+                
+                  <option value="MX" class="">Mexique</option>
+                
+                  <option value="FM" class="">Micronésie, États fédérés de</option>
+                
+                  <option value="MD" class="">Moldavie, République de</option>
+                
+                  <option value="MC" class="">Monaco</option>
+                
+                  <option value="MN" class="">Mongolie</option>
+                
+                  <option value="ME" class="">Monténégro</option>
+                
+                  <option value="MS" class="">Montserrat</option>
+                
+                  <option value="MZ" class="">Mozambique</option>
+                
+                  <option value="MM" class="">Myanmar (Burma)</option>
+                
+                  <option value="NA" class="">Namibie</option>
+                
+                  <option value="NR" class="">Nauru</option>
+                
+                  <option value="NP" class="">Népal</option>
+                
+                  <option value="NI" class="">Nicaragua</option>
+                
+                  <option value="NE" class="">Niger</option>
+                
+                  <option value="NG" class="">Nigéria</option>
+                
+                  <option value="NU" class="">Niue</option>
+                
+                  <option value="NO" class="">Norvège</option>
+                
+                  <option value="NZ" class="">Nouvelle Zélande</option>
+                
+                  <option value="NC" class="">Nouvelle-Calédonie</option>
+                
+                  <option value="OM" class="">Oman</option>
+                
+                  <option value="UG" class="">Ouganda</option>
+                
+                  <option value="UZ" class="">Ouzbékistan</option>
+                
+                  <option value="PK" class="">Pakistan</option>
+                
+                  <option value="PA" class="">Panama</option>
+                
+                  <option value="PG" class="">Papouasie-Nouvelle-Guinée</option>
+                
+                  <option value="PY" class="">Paraguay</option>
+                
+                  <option value="NL" class="">Pays-Bas</option>
+                
+                  <option value="PE" class="">Pérou</option>
+                
+                  <option value="PH" class="">Philippines</option>
+                
+                  <option value="PL" class="">Pologne</option>
+                
+                  <option value="PF" class="">Polynésie française</option>
+                
+                  <option value="PR" class="">Porto Rico</option>
+                
+                  <option value="PT" class="">Portugal</option>
+                
+                  <option value="QA" class="">Qatar</option>
+                
+                  <option value="SY" class="">République arabe syrienne</option>
+                
+                  <option value="CF" class="">République Centrafrique</option>
+                
+                  <option value="DO" class="">République dominicaine</option>
+                
+                  <option value="CZ" class="">République tchèque</option>
+                
+                  <option value="RO" class="">Roumanie</option>
+                
+                  <option value="GB" class="">Royaume-Uni</option>
+                
+                  <option value="RW" class="">Rwanda</option>
+                
+                  <option value="EH" class="">Sahara occidental</option>
+                
+                  <option value="KN" class="">Saint-Christophe et Niévès</option>
+                
+                  <option value="PM" class="">Saint-Pierre-et-Miquelon</option>
+                
+                  <option value="VC" class="">Saint-Vincent-et-les-Grenadines</option>
+                
+                  <option value="SH" class="">Sainte-Hélène</option>
+                
+                  <option value="LC" class="">Sainte-Lucie</option>
+                
+                  <option value="WS" class="">Samoa</option>
+                
+                  <option value="AS" class="">Samoa américaines</option>
+                
+                  <option value="SM" class="">San Marino</option>
+                
+                  <option value="ST" class="">São Tomé et Principe</option>
+                
+                  <option value="SN" class="">Sénégal</option>
+                
+                  <option value="RS" class="">Serbie</option>
+                
+                  <option value="SC" class="">Seychelles</option>
+                
+                  <option value="SL" class="">Sierra Leone</option>
+                
+                  <option value="SG" class="">Singapour</option>
+                
+                  <option value="SK" class="">Slovaquie (République slovaque)</option>
+                
+                  <option value="SI" class="">Slovénie</option>
+                
+                  <option value="SO" class="">Somalie</option>
+                
+                  <option value="SD" class="">Soudan</option>
+                
+                  <option value="SS" class="">Soudan du Sud</option>
+                
+                  <option value="LK" class="">Sri Lanka</option>
+                
+                  <option value="SE" class="">Suède</option>
+                
+                  <option value="CH" class="">Suisse</option>
+                
+                  <option value="SR" class="">Surinam</option>
+                
+                  <option value="SJ" class="">Svalbard et Jan Mayen</option>
+                
+                  <option value="SZ" class="">Swaziland</option>
+                
+                  <option value="TJ" class="">Tadjikistan</option>
+                
+                  <option value="TW" class="">Taïwan</option>
+                
+                  <option value="TZ" class="">Tanzanie, République unie de</option>
+                
+                  <option value="TD" class="">Tchad</option>
+                
+                  <option value="TF" class="">Terres australes françaises</option>
+                
+                  <option value="IO" class="">Territoire britannique de l'océan Indien</option>
+                
+                  <option value="TH" class="">Thaïlande</option>
+                
+                  <option value="TL" class="">Timor oriental</option>
+                
+                  <option value="TG" class="">Togo</option>
+                
+                  <option value="TK" class="">Tokelau</option>
+                
+                  <option value="TO" class="">Tonga</option>
+                
+                  <option value="TT" class="">Trinité-et-Tobago</option>
+                
+                  <option value="TN" class="">Tunisie</option>
+                
+                  <option value="TM" class="">Turkménistan</option>
+                
+                  <option value="TR" class="">Turquie</option>
+                
+                  <option value="TV" class="">Tuvalu</option>
+                
+                  <option value="UA" class="">Ukraine</option>
+                
+                  <option value="UY" class="">Uruguay</option>
+                
+                  <option value="VU" class="">Vanuatu</option>
+                
+                  <option value="VE" class="">Venezuela</option>
+                
+                  <option value="VN" class="">Vietnam</option>
+                
+                  <option value="WF" class="">Wallis-et-Futuna</option>
+                
+                  <option value="YE" class="">Yémen</option>
+                
+                  <option value="ZM" class="">Zambie</option>
+                
+                  <option value="ZW" class="">Zimbabwe</option>
+                
+              </optgroup>
+              </select>
+            </div>
+
+            <div class="d-flex flex-row">
+               <div class="align-items-start pr-2">
+               
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" name="remember" id="remember">
+                  </div>
+                          
+              </div>
+              <div class="align-items-end">
+
+                 <div class="form-check">
+                    
+
+                      <label class="form-check-label" for="remember">
+                         Inscrivez-vous pour recevoir par e-mail les dernières infos sur les produits et offres de Nike, ainsi que des avantages Membre
+                      </label>
+                  </div>
+              </div>
+            </div>
+
+          
+
+              <div class="terms">
+               <p>En vous connectant, vous acceptez de vous conformer à la <a href="#">Politique de confidentialité</a>  et aux  <a href="#"> Conditions générales</a>  de Nike.</p>
+            </div>
+            
+          
+        </div>
+        <div class="modal-footer">
+          <button class="add-to-cart text-white" data-dismiss="modal">REJOIGNEZ-NOUS</button>
+          <!-- <br><br>
+          <p>Déjà membre ? <a href="#"> Se connecter.</a> </p> -->
+          
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  
+
+<!-- 
+
+ SCROLL TO TOP
+
+-->
+
+  <a href="#" class="scrollToTop"><i class="fa fa-caret"></i></a>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/caroufredsel.js"></script>
+
+<script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
